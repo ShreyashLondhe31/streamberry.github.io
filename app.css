@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    ;
+    color: white;
+    background-color: #202731;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 26px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+}
+
+.pink {
+    background: #ff0066;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.layer2 {
+    background-image: url('./layer2.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 0;
+}
+
+.blob-content {
+    z-index: 1;
+}
+
+.blobs {
+    width: 100%;
+    background: url('./blobs.svg') no-repeat bottom / cover;
+}
